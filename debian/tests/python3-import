@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+# python3.Y at build time, python3 at CI time
+PYINTERPRETER=${PYINTERPRETER:-python3}
+
+# Python module successfully imported
+${PYINTERPRETER} -c 'import keras_applications'
+
+# Futher testing requires internet so we do not do it here

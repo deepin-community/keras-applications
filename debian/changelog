@@ -1,0 +1,44 @@
+keras-applications (1.0.8+ds-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Stephen Sinclair ]
+  * New upstream version 1.0.8.
+  * debian/watch:
+    + add dversionmangle for +ds suffix.
+  * debian/control:
+    + update to standards 4.5.0 (no changes).
+
+  [ Anton Gladky ]
+  * [6a549cb] Apply cme fix dpkg
+  * [d700800] Use secure URI in Homepage field.
+  * [209b14e] Bump debhelper from old 11 to 12.
+  * [6a4bd59] Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+ -- Anton Gladky <gladk@debian.org>  Tue, 14 Apr 2020 20:20:53 +0200
+
+keras-applications (1.0.7-1) unstable; urgency=medium
+
+  * New upstream version 1.0.7.
+  * debian/control:
+    + add build-dep python3-numpy
+
+ -- Stephen Sinclair <radarsat1@gmail.com>  Sat, 20 Apr 2019 10:36:26 +0000
+
+keras-applications (1.0.6-1) unstable; urgency=medium
+
+  * Upload to unstable.
+  * New upstream version 1.0.6.
+  * debian/control:
+    + enable DH_VERBOSE=1.
+    + update standards version to 4.3.0.
+  * debian/copyright:
+    + extend copyright span to 2019.
+
+ -- Stephen Sinclair <radarsat1@gmail.com>  Wed, 16 Jan 2019 21:35:30 +0000
+
+keras-applications (1.0.4-1) experimental; urgency=medium
+
+  * Initial release (Closes: #902391).
+
+ -- Stephen Sinclair <radarsat1@gmail.com>  Fri, 17 Aug 2018 14:03:05 -0300
